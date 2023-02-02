@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2384,6 +2384,8 @@ MonoBehaviour:
   rightBtnPrefab:
     purchasedItem: {fileID: 1000013939694586, guid: 180079041c49091489282ea6ecb31fbe, type: 3}
     cost: 8
+  boughtEffect: {fileID: 8376060278797802292, guid: 001e47abbdec90841b1321159eab9433, type: 3}
+  placeEffect: {fileID: 8607933616299100874, guid: 5c18fba417af4c0499148bbed5304a73, type: 3}
 --- !u!4 &1396548184
 Transform:
   m_ObjectHideFlags: 0

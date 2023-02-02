@@ -18,7 +18,8 @@ public class PlacementManager : MonoBehaviour
 
     private GameObject newARObject;
     private GameObject boughtARObject;
-
+    public GameObject boughtEffect;
+    public GameObject placeEffect;
 
     void Start()
     {        
@@ -48,6 +49,8 @@ public class PlacementManager : MonoBehaviour
 
         //Instantiate object  
         newARObject = Instantiate(selectedObject.purchasedItem, placeIndicator.transform.position, placeIndicator.transform.rotation);
+        GameObject newEffect = Instantiate(placeEffect, placeIndicator.transform.position, placeIndicator.transform.rotation);
+        Destroy(newEffect, 2f);
     }
 
     public void BuyObjectOnClick()
@@ -62,6 +65,8 @@ public class PlacementManager : MonoBehaviour
 
         boughtARObject = Instantiate(newARObject, newARObject.transform.position, newARObject.transform.rotation);
         Destroy(newARObject);
+        GameObject newEffect = Instantiate(boughtEffect, boughtARObject.transform.position, boughtARObject.transform.rotation);
+        Destroy(newEffect, 2f);
     }
 
     //---------------SHOP----------------//
