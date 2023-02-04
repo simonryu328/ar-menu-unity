@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 197f06bfa68e6e84d88e56414dc08db5
+  - enabled: 1
+    path: Assets/Scenes/AR_Place_Lean_Touch.unity
+    guid: cb2d3b6ca01e2bb44a1e753cffbaa433
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d82ada5c25a3b7041bd71c0eb0729252, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bcee3c629490f864a9e198c33ec28e91, type: 2}
