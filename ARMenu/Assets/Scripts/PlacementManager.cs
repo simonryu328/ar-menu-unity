@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-
+using Photon.Pun;
 
 public class PlacementManager : MonoBehaviour
 {
     // public GameObject objectToPlace;
     private PlaceIndicator placeIndicator;
 
+    //public List<GameObject> Prefabs;
     //Shop_02 object to buy
     public ShopManager leftBtnPrefab;
     public ShopManager middleBtnPrefab;
@@ -21,9 +22,19 @@ public class PlacementManager : MonoBehaviour
     public GameObject boughtEffect;
     public GameObject placeEffect;
 
+    private string objectName;
+
     void Start()
     {        
         placeIndicator = FindObjectOfType<PlaceIndicator>();    
+        // DefaultPool pool = PhotonNetwork.PrefabPool as DefaultPool;
+        // if (pool != null && this.Prefabs != null)
+        // {
+        //     foreach (GameObject prefab in this.Prefabs)
+        //     {
+        //         pool.ResourceCache.Add(prefab.name, prefab);
+        //     }
+        // }
     }
 
     
@@ -48,7 +59,16 @@ public class PlacementManager : MonoBehaviour
         }
 
         //Instantiate object  
-        newARObject = Instantiate(selectedObject.purchasedItem, placeIndicator.transform.position, placeIndicator.transform.rotation);
+        // newARObject = Instantiate(selectedObject.purchasedItem, placeIndicator.transform.position, placeIndicator.transform.rotation);
+        newARObject = PhotonNetwork.Instantiate("PhotonPrefabs/" + objectName, placeIndicator.transform.position, placeIndicator.transform.rotation);
+        // if (objectName == "Burger")
+        // {
+        //     newARObject = PhotonNetwork.Instantiate("PhotonPrefabs/" + objectName, placeIndicator.transform.position, placeIndicator.transform.rotation);
+        // } else if (objectName == "Fries") {
+        //     newARObject = PhotonNetwork.Instantiate(objectName, placeIndicator.transform.position, placeIndicator.transform.rotation);
+        // } else {
+        //     newARObject = Instantiate(selectedObject.purchasedItem, placeIndicator.transform.position, placeIndicator.transform.rotation);
+        // }
         GameObject newEffect = Instantiate(placeEffect, placeIndicator.transform.position, placeIndicator.transform.rotation);
         Destroy(newEffect, 2f);
     }
@@ -86,15 +106,18 @@ public class PlacementManager : MonoBehaviour
     public void SelectLeftBtnOnClick()
     {
         SetObjectToBuy(leftBtnPrefab); //Shop 04 Set prefab
+        objectName = "Burger";
     }
 
     public void SelectMiddleBtnOnClick()
     {
         SetObjectToBuy(middleBtnPrefab); //Shop 04 Set prefab
+        objectName = "Fries";
     }
     public void SelectRightBtnOnClick()
     {
         SetObjectToBuy(rightBtnPrefab); //Shop 04 Set prefab
+        objectName = "HotDog";
     }
 
 
