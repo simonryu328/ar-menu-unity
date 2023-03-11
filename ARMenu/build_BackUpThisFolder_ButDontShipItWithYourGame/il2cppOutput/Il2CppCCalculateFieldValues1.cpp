@@ -27022,31 +27022,6 @@ struct PlaceIndicator_t8F918995B5C98FF013FC4E7DF519FD7520EEF603  : public MonoBe
 	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___hits_6;
 };
 
-// PlacementManager
-struct PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// PlaceIndicator PlacementManager::placeIndicator
-	PlaceIndicator_t8F918995B5C98FF013FC4E7DF519FD7520EEF603* ___placeIndicator_4;
-	// ShopManager PlacementManager::leftBtnPrefab
-	ShopManager_t2D45E66C1EF9241EF7FC76C56D0ECADDC34B81D1* ___leftBtnPrefab_5;
-	// ShopManager PlacementManager::middleBtnPrefab
-	ShopManager_t2D45E66C1EF9241EF7FC76C56D0ECADDC34B81D1* ___middleBtnPrefab_6;
-	// ShopManager PlacementManager::rightBtnPrefab
-	ShopManager_t2D45E66C1EF9241EF7FC76C56D0ECADDC34B81D1* ___rightBtnPrefab_7;
-	// ShopManager PlacementManager::objectToBuy
-	ShopManager_t2D45E66C1EF9241EF7FC76C56D0ECADDC34B81D1* ___objectToBuy_8;
-	// UnityEngine.GameObject PlacementManager::newARObject
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___newARObject_9;
-	// UnityEngine.GameObject PlacementManager::boughtARObject
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___boughtARObject_10;
-	// UnityEngine.GameObject PlacementManager::boughtEffect
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___boughtEffect_11;
-	// UnityEngine.GameObject PlacementManager::placeEffect
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___placeEffect_12;
-	// System.String PlacementManager::objectName
-	String_t* ___objectName_13;
-};
-
 // Photon.Pun.Demo.Cockpit.PlayerListCell
 struct PlayerListCell_t062BAAA68DAFFC24533B07D7557901F4DF10F916  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -28948,6 +28923,31 @@ struct PingProperty_tE98E9FB0464C65DF53776208E184D5E27E11F662  : public Property
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___Text_7;
 	// System.Int32 Photon.Pun.Demo.Cockpit.PingProperty::_cache
 	int32_t ____cache_8;
+};
+
+// PlacementManager
+struct PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD  : public MonoBehaviourPun_t64DD82CBA1C47A70448DAB2263AB90A4411621BD
+{
+	// PlaceIndicator PlacementManager::placeIndicator
+	PlaceIndicator_t8F918995B5C98FF013FC4E7DF519FD7520EEF603* ___placeIndicator_5;
+	// ShopManager PlacementManager::leftBtnPrefab
+	ShopManager_t2D45E66C1EF9241EF7FC76C56D0ECADDC34B81D1* ___leftBtnPrefab_6;
+	// ShopManager PlacementManager::middleBtnPrefab
+	ShopManager_t2D45E66C1EF9241EF7FC76C56D0ECADDC34B81D1* ___middleBtnPrefab_7;
+	// ShopManager PlacementManager::rightBtnPrefab
+	ShopManager_t2D45E66C1EF9241EF7FC76C56D0ECADDC34B81D1* ___rightBtnPrefab_8;
+	// ShopManager PlacementManager::objectToBuy
+	ShopManager_t2D45E66C1EF9241EF7FC76C56D0ECADDC34B81D1* ___objectToBuy_9;
+	// UnityEngine.GameObject PlacementManager::newARObject
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___newARObject_10;
+	// UnityEngine.GameObject PlacementManager::boughtARObject
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___boughtARObject_11;
+	// UnityEngine.GameObject PlacementManager::boughtEffect
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___boughtEffect_12;
+	// UnityEngine.GameObject PlacementManager::placeEffect
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___placeEffect_13;
+	// System.String PlacementManager::objectName
+	String_t* ___objectName_14;
 };
 
 // Photon.Pun.Demo.PunBasics.PlayerAnimatorManager
@@ -35951,7 +35951,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5288[3] =
 	static_cast<int32_t>(offsetof(PlaceIndicator_t8F918995B5C98FF013FC4E7DF519FD7520EEF603, ___raycastManager_4)),static_cast<int32_t>(offsetof(PlaceIndicator_t8F918995B5C98FF013FC4E7DF519FD7520EEF603, ___visual_5)),static_cast<int32_t>(offsetof(PlaceIndicator_t8F918995B5C98FF013FC4E7DF519FD7520EEF603, ___hits_6)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5289[10] = 
 {
-	static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___placeIndicator_4)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___leftBtnPrefab_5)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___middleBtnPrefab_6)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___rightBtnPrefab_7)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___objectToBuy_8)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___newARObject_9)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___boughtARObject_10)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___boughtEffect_11)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___placeEffect_12)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___objectName_13)),};
+	static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___placeIndicator_5)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___leftBtnPrefab_6)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___middleBtnPrefab_7)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___rightBtnPrefab_8)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___objectToBuy_9)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___newARObject_10)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___boughtARObject_11)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___boughtEffect_12)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___placeEffect_13)),static_cast<int32_t>(offsetof(PlacementManager_tDC817585D405EDA5E954DCA154E5ADB32CA664CD, ___objectName_14)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5290[3] = 
 {
 	static_cast<int32_t>(offsetof(QuickStartLobbyController_tE07FADB79CA3BCA845AAADCE414552586B9B927D, ___quickStartButton_5)),static_cast<int32_t>(offsetof(QuickStartLobbyController_tE07FADB79CA3BCA845AAADCE414552586B9B927D, ___quickCancelButton_6)),static_cast<int32_t>(offsetof(QuickStartLobbyController_tE07FADB79CA3BCA845AAADCE414552586B9B927D, ___RoomSize_7)),};

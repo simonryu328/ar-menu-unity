@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using Photon.Pun;
 
-public class PlacementManager : MonoBehaviour
+public class PlacementManager : MonoBehaviourPun
 {
     // public GameObject objectToPlace;
     private PlaceIndicator placeIndicator;
@@ -42,7 +42,7 @@ public class PlacementManager : MonoBehaviour
     {
        
     }
-
+    
     //---------------Place and Buy----------------//
 
     public void PlaceObjectOnClick()
@@ -81,13 +81,22 @@ public class PlacementManager : MonoBehaviour
         }
 
         ShopManager selectedObject = GetObjectToBuy();
-        CostManager.Cost += selectedObject.cost;
+        // CostManager.Cost += selectedObject.cost;
+        PhotonView photonView = PhotonView.Get(this);
+        photonView.RPC("UpdateCost", RpcTarget.AllBuffered, selectedObject.cost);
+        // Debug.Log("rpc sent");
 
         // boughtARObject = Instantiate(newARObject, newARObject.transform.position, newARObject.transform.rotation);
         boughtARObject = PhotonNetwork.Instantiate("PhotonPrefabs/" + objectName, newARObject.transform.position, newARObject.transform.rotation);
         Destroy(newARObject);
         GameObject newEffect = Instantiate(boughtEffect, boughtARObject.transform.position, boughtARObject.transform.rotation);
         Destroy(newEffect, 2f);
+    }
+
+    [PunRPC]
+    public void UpdateCost(int cost)
+    {
+        CostManager.Cost += cost;
     }
 
     //---------------SHOP----------------//
