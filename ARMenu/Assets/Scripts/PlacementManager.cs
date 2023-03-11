@@ -59,8 +59,8 @@ public class PlacementManager : MonoBehaviour
         }
 
         //Instantiate object  
-        // newARObject = Instantiate(selectedObject.purchasedItem, placeIndicator.transform.position, placeIndicator.transform.rotation);
-        newARObject = PhotonNetwork.Instantiate("PhotonPrefabs/" + objectName, placeIndicator.transform.position, placeIndicator.transform.rotation);
+        newARObject = Instantiate(selectedObject.purchasedItem, placeIndicator.transform.position, placeIndicator.transform.rotation);
+        // newARObject = PhotonNetwork.Instantiate("PhotonPrefabs/" + objectName, placeIndicator.transform.position, placeIndicator.transform.rotation);
         // if (objectName == "Burger")
         // {
         //     newARObject = PhotonNetwork.Instantiate("PhotonPrefabs/" + objectName, placeIndicator.transform.position, placeIndicator.transform.rotation);
@@ -83,7 +83,8 @@ public class PlacementManager : MonoBehaviour
         ShopManager selectedObject = GetObjectToBuy();
         CostManager.Cost += selectedObject.cost;
 
-        boughtARObject = Instantiate(newARObject, newARObject.transform.position, newARObject.transform.rotation);
+        // boughtARObject = Instantiate(newARObject, newARObject.transform.position, newARObject.transform.rotation);
+        boughtARObject = PhotonNetwork.Instantiate("PhotonPrefabs/" + objectName, newARObject.transform.position, newARObject.transform.rotation);
         Destroy(newARObject);
         GameObject newEffect = Instantiate(boughtEffect, boughtARObject.transform.position, boughtARObject.transform.rotation);
         Destroy(newEffect, 2f);
