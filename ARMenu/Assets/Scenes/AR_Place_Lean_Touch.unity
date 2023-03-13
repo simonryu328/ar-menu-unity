@@ -4394,7 +4394,7 @@ MonoBehaviour:
   deselectWithNothing: 0
   limit: 2
   maxSelectables: 1
-  reselect: 3
+  reselect: 2
   selectables: []
   onSelected:
     m_PersistentCalls:
