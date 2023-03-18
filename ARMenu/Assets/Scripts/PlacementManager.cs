@@ -93,6 +93,20 @@ public class PlacementManager : MonoBehaviourPun
         Destroy(newEffect, 2f);
     }
 
+    public void PlaceAndConfirm()
+    {
+        if (newARObject == null)
+        {
+            PlaceObjectOnClick();
+            GameObject.Find("BuyBtn").GetComponentInChildren<Text>().text = "CONFIRM";
+        }
+        else
+        {
+            BuyObjectOnClick();
+            GameObject.Find("BuyBtn").GetComponentInChildren<Text>().text = "PLACE";
+        }
+    }
+
     [PunRPC]
     public void UpdateCost(int cost)
     {
