@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: -2339420175188222075}
   - component: {fileID: -8223729545393435963}
   - component: {fileID: 4506726430764489850}
+  - component: {fileID: -6334893951559792677}
   m_Layer: 0
   m_Name: Fries
   m_TagString: Untagged
@@ -238,3 +239,15 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &-6334893951559792677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034010870866157388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30abf3c488f8bb9419e4b07bd44d13c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
