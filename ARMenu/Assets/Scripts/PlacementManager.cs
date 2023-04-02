@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using Photon.Pun;
+using TMPro;
 
 public class PlacementManager : MonoBehaviourPun
 {
@@ -15,6 +16,16 @@ public class PlacementManager : MonoBehaviourPun
     public ShopManager leftBtnPrefab;
     public ShopManager middleBtnPrefab;
     public ShopManager rightBtnPrefab;
+
+    public ShopManager leftBtnPrefab1;
+    public ShopManager middleBtnPrefab1;
+    public ShopManager rightBtnPrefab1;
+
+    public ShopManager leftBtnPrefab2;
+    public ShopManager middleBtnPrefab2;
+    public ShopManager rightBtnPrefab2;
+
+
     private ShopManager objectToBuy;
 
     private GameObject newARObject;
@@ -23,6 +34,8 @@ public class PlacementManager : MonoBehaviourPun
     public GameObject placeEffect;
 
     private string objectName;
+
+    [SerializeField] private TMP_Text selectText;
 
     void Start()
     {        
@@ -75,10 +88,10 @@ public class PlacementManager : MonoBehaviourPun
 
     public void BuyObjectOnClick()
     {
-        if (newARObject == null)
-        {
-            return;
-        }
+        //if (newARObject == null)
+        //{
+        //    return;
+        //}
 
         ShopManager selectedObject = GetObjectToBuy();
         // CostManager.Cost += selectedObject.cost;
@@ -87,9 +100,9 @@ public class PlacementManager : MonoBehaviourPun
         // Debug.Log("rpc sent");
 
         // boughtARObject = Instantiate(newARObject, newARObject.transform.position, newARObject.transform.rotation);
-        boughtARObject = PhotonNetwork.Instantiate("PhotonPrefabs/" + objectName, newARObject.transform.position, newARObject.transform.rotation);
+        boughtARObject = PhotonNetwork.Instantiate("PhotonPrefabs/" + objectName, placeIndicator.transform.position, placeIndicator.transform.rotation);
         Destroy(newARObject);
-        GameObject newEffect = Instantiate(boughtEffect, boughtARObject.transform.position, boughtARObject.transform.rotation);
+        GameObject newEffect = Instantiate(placeEffect, boughtARObject.transform.position, boughtARObject.transform.rotation);
         Destroy(newEffect, 2f);
     }
 
@@ -131,20 +144,63 @@ public class PlacementManager : MonoBehaviourPun
     {
         SetObjectToBuy(leftBtnPrefab); //Shop 04 Set prefab
         objectName = "Burger";
+        selectText.text = "Selected: Burger";
     }
 
     public void SelectMiddleBtnOnClick()
     {
         SetObjectToBuy(middleBtnPrefab); //Shop 04 Set prefab
         objectName = "Fries";
+        selectText.text = "Selected: Fries";
     }
     public void SelectRightBtnOnClick()
     {
         SetObjectToBuy(rightBtnPrefab); //Shop 04 Set prefab
         objectName = "HotDog";
+        selectText.text = "Selected: Hot dog";
     }
 
+    // middle row
+    public void SelectLeftBtnOnClick1()
+    {
+        SetObjectToBuy(leftBtnPrefab1); //Shop 04 Set prefab
+        objectName = "Tacos";
+        selectText.text = "Selected: Tacos";
+    }
 
+    public void SelectMiddleBtnOnClick1()
+    {
+        SetObjectToBuy(middleBtnPrefab1); //Shop 04 Set prefab
+        objectName = "Steak_Cooked";
+        selectText.text = "Selected: Steak";
+    }
+    public void SelectRightBtnOnClick1()
+    {
+        SetObjectToBuy(rightBtnPrefab1); //Shop 04 Set prefab
+        objectName = "Croissant";
+        selectText.text = "Selected: Croissant";
+    }
+
+    // top row
+    public void SelectLeftBtnOnClick2()
+    {
+        SetObjectToBuy(leftBtnPrefab2); //Shop 04 Set prefab
+        objectName = "Wine_Bottle";
+        selectText.text = "Selected: Burger";
+    }
+
+    public void SelectMiddleBtnOnClick2()
+    {
+        SetObjectToBuy(middleBtnPrefab2); //Shop 04 Set prefab
+        objectName = "Drink_01";
+        selectText.text = "Selected: Mojito";
+    }
+    public void SelectRightBtnOnClick2()
+    {
+        SetObjectToBuy(rightBtnPrefab2); //Shop 04 Set prefab
+        objectName = "Drink_02";
+        selectText.text = "Selected: Negroni";
+    }
     //---------------Rotate And Scale----------------//
 
     //Creat Button
