@@ -564,7 +564,6 @@ IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral011D7D9D78DC2A4EA6437F75F6AE9C5B1D038EC5;
 IL2CPP_EXTERN_C String_t* _stringLiteral02B3E56E4708FA9AEED0B607268A8985B53DDF13;
-IL2CPP_EXTERN_C String_t* _stringLiteral065C919D66FB4F9108B080BFFD08AF1B8A432D63;
 IL2CPP_EXTERN_C String_t* _stringLiteral0CCFD69444F343A43D9B34E72AE10A9C37F6402F;
 IL2CPP_EXTERN_C String_t* _stringLiteral0E620766BC8B27555BB250D6EBCBB320C4B1120C;
 IL2CPP_EXTERN_C String_t* _stringLiteral0F45C1C537BBADB2FE21CC7BB49C59898B204E6E;
@@ -574,7 +573,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral1729AC1B7F3D22492501BEF772B5BFDEBCF05B70
 IL2CPP_EXTERN_C String_t* _stringLiteral187DC7C8E0EDA1DE1ED6DF6A69E16E1804984856;
 IL2CPP_EXTERN_C String_t* _stringLiteral18BA82A745D9E10EF604341BD4FA08FA6FBF82D5;
 IL2CPP_EXTERN_C String_t* _stringLiteral25D19D44AE79EC606DD671C43230AAA8F1766EE6;
-IL2CPP_EXTERN_C String_t* _stringLiteral27421305A4E570FBFF366A805F714008A8ED8931;
 IL2CPP_EXTERN_C String_t* _stringLiteral28B7EDF9E324F8C7C00DCE82B9611E6089187E1F;
 IL2CPP_EXTERN_C String_t* _stringLiteral291A617830A5E3E6403015F74C0F727C0F8F2718;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C91CEEB5E6ACD712F102DE9EE44CB907B557A17;
@@ -593,9 +591,11 @@ IL2CPP_EXTERN_C String_t* _stringLiteral471E512CD36A060B52A0EE28B8A6D4EEC00378C1
 IL2CPP_EXTERN_C String_t* _stringLiteral4A36DF6525515FE29AEB2A52B49635745B5D8E56;
 IL2CPP_EXTERN_C String_t* _stringLiteral4A40D860326E4F58DF247BAAC9F338720FCF0B75;
 IL2CPP_EXTERN_C String_t* _stringLiteral4B2E709D2A4E03DD55F833DB42CF9680B426BDDD;
+IL2CPP_EXTERN_C String_t* _stringLiteral4D4E32D4A42DAB434FDD0647AF01B7D7CEAFF1AD;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E38E2B4F159337570AD4E9656D4BDAF8B0EBCF1;
 IL2CPP_EXTERN_C String_t* _stringLiteral5224DE4337BB6DBE135E6B5A4D01069A20195D5F;
 IL2CPP_EXTERN_C String_t* _stringLiteral5445BCA68CDDDA70AAE5969FC8DC8F616AF11EC3;
+IL2CPP_EXTERN_C String_t* _stringLiteral550E6B33884F39A2A3747BC5584F9AFFE63F9EB4;
 IL2CPP_EXTERN_C String_t* _stringLiteral5D6A39CF1E3A2BB7700481DB871D78DDB02A911D;
 IL2CPP_EXTERN_C String_t* _stringLiteral5DF695F96AE9B00DBD2CB8F12E765C3159E02AF8;
 IL2CPP_EXTERN_C String_t* _stringLiteral60D25464A0D2697B9DE85A8CE7C6E223B98C82E6;
@@ -606,29 +606,26 @@ IL2CPP_EXTERN_C String_t* _stringLiteral6C8EA4ECB883AD669394FC7A5E304891A38ADED4
 IL2CPP_EXTERN_C String_t* _stringLiteral710F81E0EEB8CB48BACB8437BA5836E3B5349235;
 IL2CPP_EXTERN_C String_t* _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D;
 IL2CPP_EXTERN_C String_t* _stringLiteral77F781BE1FA4EBA75ACC2DC942D3D87126A499DB;
+IL2CPP_EXTERN_C String_t* _stringLiteral78840F750E7DD215D11278C6654F88126EA09F99;
+IL2CPP_EXTERN_C String_t* _stringLiteral852BBBD9C3ECCDB212FF56B39EE1CF4D2A6C1066;
 IL2CPP_EXTERN_C String_t* _stringLiteral86C677CA2B54E7E4E81E71A6AF30E985B484A0AF;
 IL2CPP_EXTERN_C String_t* _stringLiteral87F8ED9157125FFC4DA9E06A7B8011AD80A53FE1;
 IL2CPP_EXTERN_C String_t* _stringLiteral88A4E835FC47194C325AC1B4075B94D15767248A;
 IL2CPP_EXTERN_C String_t* _stringLiteral8CB7873CC9B86C1D67BF2A619181392B42B2481F;
 IL2CPP_EXTERN_C String_t* _stringLiteral8D18408DA0F097D6093862E3BA2FEEFEF0266BED;
-IL2CPP_EXTERN_C String_t* _stringLiteral8D591C7785BE08F7634D6DDC86F69A10CD684782;
 IL2CPP_EXTERN_C String_t* _stringLiteral8FCB6DBFD5C6EA15AEC4979C84A6BD88B09DF369;
-IL2CPP_EXTERN_C String_t* _stringLiteral91125CF53E6A3E3F9E79B01E9E13D4570E9CB42A;
-IL2CPP_EXTERN_C String_t* _stringLiteral932E4CFA278D220B850816A49602A5650F804F36;
 IL2CPP_EXTERN_C String_t* _stringLiteral93CD26FD25F534D18F21EBB330F02E0264AC3C8C;
 IL2CPP_EXTERN_C String_t* _stringLiteral9414893FDBFD14E74C71296C1A6638F1C74F033A;
 IL2CPP_EXTERN_C String_t* _stringLiteral95F6AE19E1B73D48A37AEE92B194490FF6B6A1D8;
 IL2CPP_EXTERN_C String_t* _stringLiteral97A6A3D23A8B226761BF64E555FE4979D4D97E5F;
-IL2CPP_EXTERN_C String_t* _stringLiteralA0CF87069742FDACD86855458F11A6370BCFD217;
 IL2CPP_EXTERN_C String_t* _stringLiteralA1533BFD28F11C5F69CA87886E87821ECA526FE4;
 IL2CPP_EXTERN_C String_t* _stringLiteralA36D615703FF124A704E046433369D41AA86C957;
 IL2CPP_EXTERN_C String_t* _stringLiteralA3C5840052AEFA7B4F714A33CECD66FF52D375D3;
 IL2CPP_EXTERN_C String_t* _stringLiteralA4D550D6A2546E3768F217F46677EF487966A703;
-IL2CPP_EXTERN_C String_t* _stringLiteralA5C4C839FCD39F62A2D0633317D2A0AE63D0CC84;
 IL2CPP_EXTERN_C String_t* _stringLiteralA7077659D26DAF185E52E2F2B77A29B3A2B818C1;
 IL2CPP_EXTERN_C String_t* _stringLiteralAA7F99163A73B18D65A5485F16CA3668273B6118;
 IL2CPP_EXTERN_C String_t* _stringLiteralAAF7A35E91DDD3A1484CCEB46F965D2AB693E44D;
-IL2CPP_EXTERN_C String_t* _stringLiteralAE2F7FEC34A5B579F8B00E900EEF513D2327F4FE;
+IL2CPP_EXTERN_C String_t* _stringLiteralAB6A3959440B010C21D374285879BBDCEE56A829;
 IL2CPP_EXTERN_C String_t* _stringLiteralB35E1959C97E7C82761FCAA57ECBBF50E94419B2;
 IL2CPP_EXTERN_C String_t* _stringLiteralB3664676F50F442E724FBD9CC58E7261F51AA12F;
 IL2CPP_EXTERN_C String_t* _stringLiteralB3EE84AC8B07326C305594743D4D14C5C25686DB;
@@ -636,12 +633,14 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D
 IL2CPP_EXTERN_C String_t* _stringLiteralB61F8E5C6788E7093D4F1DE579EBD7C233090B94;
 IL2CPP_EXTERN_C String_t* _stringLiteralBE1823106E03B1A8E37190FA81CAA82064505504;
 IL2CPP_EXTERN_C String_t* _stringLiteralBE4EEAA3C538A66727E1F57EEFC277047842C14C;
+IL2CPP_EXTERN_C String_t* _stringLiteralBE74B2DAF29B27933470941C3F38A63ED9C4BDD8;
 IL2CPP_EXTERN_C String_t* _stringLiteralC1BD9BD90CD9F1AC239F9A86461118334E2AE630;
 IL2CPP_EXTERN_C String_t* _stringLiteralC630B6232E954C62E19082C6D40943AB6A6C38D7;
 IL2CPP_EXTERN_C String_t* _stringLiteralC7A7939E82BEFEF8DDB755713442AA62963F09F8;
 IL2CPP_EXTERN_C String_t* _stringLiteralCA57578EAEFA651B01355E789772176BF80A1390;
 IL2CPP_EXTERN_C String_t* _stringLiteralCCE149C7622A20B800C0F221FF927D6238C6DD62;
 IL2CPP_EXTERN_C String_t* _stringLiteralD3992DF679A3EF8B96232992FF89A2B1F1DB5534;
+IL2CPP_EXTERN_C String_t* _stringLiteralD90AE31AF05BD7FAAD1C46E09AF05D001FA01CEF;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA666908BB15F4E1D2649752EC5DCBD0D5C64699;
 IL2CPP_EXTERN_C String_t* _stringLiteralDBFACAE4530D8D98BB57A26DD222453DCC5F7E0E;
@@ -650,6 +649,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE01396087B968D8089649181D62173B42DA52091
 IL2CPP_EXTERN_C String_t* _stringLiteralE0E1780CE6317E2825E72AC551DFDA4F1590D366;
 IL2CPP_EXTERN_C String_t* _stringLiteralE0F902889DF6EC5CFE211AF8D1697BB12234DA66;
 IL2CPP_EXTERN_C String_t* _stringLiteralE1BA34E8407E1622C279AB6F6CAF3C807280392E;
+IL2CPP_EXTERN_C String_t* _stringLiteralE2FD99EECF418A2AE86F6AA3C1344BC2CC974282;
 IL2CPP_EXTERN_C String_t* _stringLiteralEB10EE0C74B5EB6CB7CB5753E4550BD69B561257;
 IL2CPP_EXTERN_C String_t* _stringLiteralF0E91461B7ECDB6ABA60BFA77B9395C3A7DF66BE;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3512EA64803DB604632F0FE67C4493C086DBBC4;
@@ -659,6 +659,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralF903ABCF81417315694F4593925EE527D6C1258B
 IL2CPP_EXTERN_C String_t* _stringLiteralF92D1197FE7F9C3266589153D13221067FA7BB4A;
 IL2CPP_EXTERN_C String_t* _stringLiteralF9FDD408FE7ED9664BB8CBE624E1D3F1E3DA605A;
 IL2CPP_EXTERN_C String_t* _stringLiteralFB0DA295360002E063FF9B079B5E7DC3DB313083;
+IL2CPP_EXTERN_C String_t* _stringLiteralFC1C9359FFA9136E39A3E64C5DEA28F3B1F40B13;
 IL2CPP_EXTERN_C String_t* _stringLiteralFCCA328F77D050FE98C954ABC27B722687F2666D;
 IL2CPP_EXTERN_C String_t* _stringLiteralFDB6E6D617A894CF6A5EC4195B7DBF4AFF000089;
 IL2CPP_EXTERN_C String_t* _stringLiteralFF8AEDAF918CF6EF3D306EB2FB9FA00A4D0FA453;
@@ -6195,8 +6196,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectLeftBtnOnClick_m9
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral065C919D66FB4F9108B080BFFD08AF1B8A432D63);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3BD3A1CAE93456E75362F1FB949A52CF81769B64);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAB6A3959440B010C21D374285879BBDCEE56A829);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -6206,10 +6207,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectLeftBtnOnClick_m9
 		// objectName = "Burger";
 		__this->___objectName_20 = _stringLiteral3BD3A1CAE93456E75362F1FB949A52CF81769B64;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectName_20), (void*)_stringLiteral3BD3A1CAE93456E75362F1FB949A52CF81769B64);
-		// selectText.text = "Selected: Burger";
+		// selectText.text = "Selected: Burger $10";
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___selectText_21;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteral065C919D66FB4F9108B080BFFD08AF1B8A432D63);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteralAB6A3959440B010C21D374285879BBDCEE56A829);
 		// }
 		return;
 	}
@@ -6220,8 +6221,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectMiddleBtnOnClick_
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAE2F7FEC34A5B579F8B00E900EEF513D2327F4FE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA57578EAEFA651B01355E789772176BF80A1390);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE2FD99EECF418A2AE86F6AA3C1344BC2CC974282);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -6231,10 +6232,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectMiddleBtnOnClick_
 		// objectName = "Fries";
 		__this->___objectName_20 = _stringLiteralCA57578EAEFA651B01355E789772176BF80A1390;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectName_20), (void*)_stringLiteralCA57578EAEFA651B01355E789772176BF80A1390);
-		// selectText.text = "Selected: Fries";
+		// selectText.text = "Selected: Fries $5";
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___selectText_21;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteralAE2F7FEC34A5B579F8B00E900EEF513D2327F4FE);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteralE2FD99EECF418A2AE86F6AA3C1344BC2CC974282);
 		// }
 		return;
 	}
@@ -6245,8 +6246,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectRightBtnOnClick_m
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral932E4CFA278D220B850816A49602A5650F804F36);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEB10EE0C74B5EB6CB7CB5753E4550BD69B561257);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFC1C9359FFA9136E39A3E64C5DEA28F3B1F40B13);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -6256,10 +6257,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectRightBtnOnClick_m
 		// objectName = "HotDog";
 		__this->___objectName_20 = _stringLiteralEB10EE0C74B5EB6CB7CB5753E4550BD69B561257;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectName_20), (void*)_stringLiteralEB10EE0C74B5EB6CB7CB5753E4550BD69B561257);
-		// selectText.text = "Selected: Hot dog";
+		// selectText.text = "Selected: Hot dog $8";
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___selectText_21;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteral932E4CFA278D220B850816A49602A5650F804F36);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteralFC1C9359FFA9136E39A3E64C5DEA28F3B1F40B13);
 		// }
 		return;
 	}
@@ -6270,8 +6271,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectLeftBtnOnClick1_m
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral27421305A4E570FBFF366A805F714008A8ED8931);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral291A617830A5E3E6403015F74C0F727C0F8F2718);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD90AE31AF05BD7FAAD1C46E09AF05D001FA01CEF);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -6281,10 +6282,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectLeftBtnOnClick1_m
 		// objectName = "Tacos";
 		__this->___objectName_20 = _stringLiteral291A617830A5E3E6403015F74C0F727C0F8F2718;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectName_20), (void*)_stringLiteral291A617830A5E3E6403015F74C0F727C0F8F2718);
-		// selectText.text = "Selected: Tacos";
+		// selectText.text = "Selected: Tacos $4";
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___selectText_21;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteral27421305A4E570FBFF366A805F714008A8ED8931);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteralD90AE31AF05BD7FAAD1C46E09AF05D001FA01CEF);
 		// }
 		return;
 	}
@@ -6295,8 +6296,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectMiddleBtnOnClick1
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral78840F750E7DD215D11278C6654F88126EA09F99);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA4D550D6A2546E3768F217F46677EF487966A703);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA5C4C839FCD39F62A2D0633317D2A0AE63D0CC84);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -6306,10 +6307,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectMiddleBtnOnClick1
 		// objectName = "Steak_Cooked";
 		__this->___objectName_20 = _stringLiteralA4D550D6A2546E3768F217F46677EF487966A703;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectName_20), (void*)_stringLiteralA4D550D6A2546E3768F217F46677EF487966A703);
-		// selectText.text = "Selected: Steak";
+		// selectText.text = "Selected: Steak $20";
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___selectText_21;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteralA5C4C839FCD39F62A2D0633317D2A0AE63D0CC84);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteral78840F750E7DD215D11278C6654F88126EA09F99);
 		// }
 		return;
 	}
@@ -6320,7 +6321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectRightBtnOnClick1_
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral91125CF53E6A3E3F9E79B01E9E13D4570E9CB42A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D4E32D4A42DAB434FDD0647AF01B7D7CEAFF1AD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA3C5840052AEFA7B4F714A33CECD66FF52D375D3);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -6331,10 +6332,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectRightBtnOnClick1_
 		// objectName = "Croissant";
 		__this->___objectName_20 = _stringLiteralA3C5840052AEFA7B4F714A33CECD66FF52D375D3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectName_20), (void*)_stringLiteralA3C5840052AEFA7B4F714A33CECD66FF52D375D3);
-		// selectText.text = "Selected: Croissant";
+		// selectText.text = "Selected: Croissant $3";
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___selectText_21;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteral91125CF53E6A3E3F9E79B01E9E13D4570E9CB42A);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteral4D4E32D4A42DAB434FDD0647AF01B7D7CEAFF1AD);
 		// }
 		return;
 	}
@@ -6345,7 +6346,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectLeftBtnOnClick2_m
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral065C919D66FB4F9108B080BFFD08AF1B8A432D63);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral852BBBD9C3ECCDB212FF56B39EE1CF4D2A6C1066);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE0E1780CE6317E2825E72AC551DFDA4F1590D366);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -6356,10 +6357,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectLeftBtnOnClick2_m
 		// objectName = "Wine_Bottle";
 		__this->___objectName_20 = _stringLiteralE0E1780CE6317E2825E72AC551DFDA4F1590D366;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectName_20), (void*)_stringLiteralE0E1780CE6317E2825E72AC551DFDA4F1590D366);
-		// selectText.text = "Selected: Burger";
+		// selectText.text = "Selected: Merlot $15";
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___selectText_21;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteral065C919D66FB4F9108B080BFFD08AF1B8A432D63);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteral852BBBD9C3ECCDB212FF56B39EE1CF4D2A6C1066);
 		// }
 		return;
 	}
@@ -6370,8 +6371,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectMiddleBtnOnClick2
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral550E6B33884F39A2A3747BC5584F9AFFE63F9EB4);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D18408DA0F097D6093862E3BA2FEEFEF0266BED);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA0CF87069742FDACD86855458F11A6370BCFD217);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -6381,10 +6382,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectMiddleBtnOnClick2
 		// objectName = "Drink_01";
 		__this->___objectName_20 = _stringLiteral8D18408DA0F097D6093862E3BA2FEEFEF0266BED;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectName_20), (void*)_stringLiteral8D18408DA0F097D6093862E3BA2FEEFEF0266BED);
-		// selectText.text = "Selected: Mojito";
+		// selectText.text = "Selected: Mojito $12";
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___selectText_21;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteralA0CF87069742FDACD86855458F11A6370BCFD217);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteral550E6B33884F39A2A3747BC5584F9AFFE63F9EB4);
 		// }
 		return;
 	}
@@ -6396,7 +6397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectRightBtnOnClick2_
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B2E709D2A4E03DD55F833DB42CF9680B426BDDD);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D591C7785BE08F7634D6DDC86F69A10CD684782);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBE74B2DAF29B27933470941C3F38A63ED9C4BDD8);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -6406,10 +6407,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlacementManager_SelectRightBtnOnClick2_
 		// objectName = "Chili";
 		__this->___objectName_20 = _stringLiteral4B2E709D2A4E03DD55F833DB42CF9680B426BDDD;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectName_20), (void*)_stringLiteral4B2E709D2A4E03DD55F833DB42CF9680B426BDDD);
-		// selectText.text = "Selected: Chili";
+		// selectText.text = "Selected: Chili $12";
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___selectText_21;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteral8D591C7785BE08F7634D6DDC86F69A10CD684782);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteralBE74B2DAF29B27933470941C3F38A63ED9C4BDD8);
 		// }
 		return;
 	}

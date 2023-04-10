@@ -152,20 +152,20 @@ public class PlacementManager : MonoBehaviourPun
     {
         SetObjectToBuy(leftBtnPrefab); //Shop 04 Set prefab
         objectName = "Burger";
-        selectText.text = "Selected: Burger";
+        selectText.text = "Selected: Burger $10";
     }
 
     public void SelectMiddleBtnOnClick()
     {
         SetObjectToBuy(middleBtnPrefab); //Shop 04 Set prefab
         objectName = "Fries";
-        selectText.text = "Selected: Fries";
+        selectText.text = "Selected: Fries $5";
     }
     public void SelectRightBtnOnClick()
     {
         SetObjectToBuy(rightBtnPrefab); //Shop 04 Set prefab
         objectName = "HotDog";
-        selectText.text = "Selected: Hot dog";
+        selectText.text = "Selected: Hot dog $8";
     }
 
     // middle row
@@ -173,20 +173,20 @@ public class PlacementManager : MonoBehaviourPun
     {
         SetObjectToBuy(leftBtnPrefab1); //Shop 04 Set prefab
         objectName = "Tacos";
-        selectText.text = "Selected: Tacos";
+        selectText.text = "Selected: Tacos $4";
     }
 
     public void SelectMiddleBtnOnClick1()
     {
         SetObjectToBuy(middleBtnPrefab1); //Shop 04 Set prefab
         objectName = "Steak_Cooked";
-        selectText.text = "Selected: Steak";
+        selectText.text = "Selected: Steak $20";
     }
     public void SelectRightBtnOnClick1()
     {
         SetObjectToBuy(rightBtnPrefab1); //Shop 04 Set prefab
         objectName = "Croissant";
-        selectText.text = "Selected: Croissant";
+        selectText.text = "Selected: Croissant $3";
     }
 
     // top row
@@ -194,20 +194,20 @@ public class PlacementManager : MonoBehaviourPun
     {
         SetObjectToBuy(leftBtnPrefab2); //Shop 04 Set prefab
         objectName = "Wine_Bottle";
-        selectText.text = "Selected: Burger";
+        selectText.text = "Selected: Merlot $15";
     }
 
     public void SelectMiddleBtnOnClick2()
     {
         SetObjectToBuy(middleBtnPrefab2); //Shop 04 Set prefab
         objectName = "Drink_01";
-        selectText.text = "Selected: Mojito";
+        selectText.text = "Selected: Mojito $12";
     }
     public void SelectRightBtnOnClick2()
     {
         SetObjectToBuy(rightBtnPrefab2); //Shop 04 Set prefab
         objectName = "Chili";
-        selectText.text = "Selected: Chili";
+        selectText.text = "Selected: Chili $12";
     }
     //---------------Rotate And Scale----------------//
 
