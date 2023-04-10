@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 6628847459997117161}
   - component: {fileID: -6067596838882782381}
   m_Layer: 0
-  m_Name: Drink_02
+  m_Name: Chili
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,7 +48,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6034010870866157388}
-  m_Mesh: {fileID: 4300000, guid: e5243630032651f4595e873c112cb51c, type: 3}
+  m_Mesh: {fileID: 4300000, guid: b35c815c74fb6884f9bb74089e03072e, type: 3}
 --- !u!23 &5983242013144234775
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -104,7 +104,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e5243630032651f4595e873c112cb51c, type: 3}
+  m_Mesh: {fileID: 4300000, guid: b35c815c74fb6884f9bb74089e03072e, type: 3}
 --- !u!114 &1717306892669641120
 MonoBehaviour:
   m_ObjectHideFlags: 0

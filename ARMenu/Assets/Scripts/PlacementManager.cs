@@ -206,8 +206,8 @@ public class PlacementManager : MonoBehaviourPun
     public void SelectRightBtnOnClick2()
     {
         SetObjectToBuy(rightBtnPrefab2); //Shop 04 Set prefab
-        objectName = "Drink_02";
-        selectText.text = "Selected: Negroni";
+        objectName = "Chili";
+        selectText.text = "Selected: Chili";
     }
     //---------------Rotate And Scale----------------//
 
