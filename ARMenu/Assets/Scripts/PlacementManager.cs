@@ -120,6 +120,14 @@ public class PlacementManager : MonoBehaviourPun
         }
     }
 
+    // public void DeleteObject()
+    // {
+    //     // PhotonView photonViewScene = PhotonView.Get(this);
+    //     // PhotonView photonViewObject = PhotonView.Get(photonViewScene);
+    //     PhotonView photonView = PhotonView.Get(this);
+    //     PhotonNetwork.Destroy(photonView);
+    // }
+
     [PunRPC]
     public void UpdateCost(int cost)
     {
