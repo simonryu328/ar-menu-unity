@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AR_Place_Lean_Touch.unity
     guid: cb2d3b6ca01e2bb44a1e753cffbaa433
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerSceneDemo.unity
+    guid: 10c868d2caf67194e870c9a85708c84d
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d82ada5c25a3b7041bd71c0eb0729252, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bcee3c629490f864a9e198c33ec28e91, type: 2}
